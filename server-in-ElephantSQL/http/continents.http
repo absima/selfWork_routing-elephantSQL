@@ -1,0 +1,21 @@
+GET http://localhost:5432/continents
+
+###
+GET http://localhost:5432/continents/6
+
+###
+POST http://localhost:5432/continents
+
+###
+PUT http://localhost:5432/continents/1
+Content-Type: application/json
+
+{
+    "first_name":"me",
+    "last_name":"myself",
+    "age":222
+}
+###
+DELETE http://localhost:5432/continents/4
+
+

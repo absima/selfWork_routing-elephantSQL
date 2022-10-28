@@ -1,0 +1,17 @@
+{
+  "name": "savejsonfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "savingJSON.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^9.2.7",
+    "contentful-rich-text-to-markdown": "^0.1.5"
+  }
+}

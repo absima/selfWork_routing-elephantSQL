@@ -1,0 +1,42 @@
+GET http://localhost:5432/countries
+
+###
+GET http://localhost:5432/countries/3
+
+###
+POST http://localhost:5432/countries
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 
+POST http://localhost:5432/users
+Content-Type: application/json
+
+{
+    "first_name":"blabablal",
+    "last_name":"last naem",
+    "age":1123971
+}
+###
+PUT http://localhost:5432/countries/1
+Content-Type: application/json
+
+{
+    "first_name":"me",
+    "last_name":"myself",
+    "age":222
+}
+###
+DELETE http://localhost:5432/countries/4
+
+
